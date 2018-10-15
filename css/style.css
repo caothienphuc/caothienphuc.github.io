@@ -1,0 +1,81 @@
+.title {
+    background: url('../img/Laptop_on_Desk_HD_Wallpaper.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 8rem 0;
+    color: white
+}
+
+.title h1 {
+    line-height: 2.5rem;
+    color: grey;
+}
+
+.title p {
+    line-height: 1.5rem;
+    color: black
+}
+
+.lines {
+    background: #dfdfdf;
+    margin-bottom: 2rem;
+}
+
+.lines .breadcrumb {
+    margin-bottom: 0;
+    background: none;
+    padding: .75rem 0;
+}
+
+.shop figure {
+    /* border: 1px solid #dfdfdf; */
+    padding: 1rem
+}
+
+.shop figure:hover {
+    box-shadow: 0 0 15px rgba(179, 179, 179, 0.75);
+}
+
+.center {
+    text-align: center;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.of-footer {
+    padding: 30px 0;
+    text-align: center;
+    background-color: #efefef;
+    color: #000000;
+}
+
+.btn-nguyen {
+    background: gray;
+    color: white;
+    padding: .5rem 4rem;
+    border-radius: 2rem
+}
+
+.tab-content {
+    background: white;
+    padding: .5rem 16rem;
+    border-radius: 1rem
+}
